@@ -1,0 +1,15 @@
+Name: keystone
+Host: 0.0.0.0
+Port: 8888
+
+Mysql:
+  DataSource: root:123qwe@tcp(mysql:3306)/goweb?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+
+Auth:
+  AccessSecret: uOvKLmVfztaXGpNYd4Z0I1SiT7MweJhl
+  AccessExpire: 86400
+
+KeystoneRpc:
+  Endpoints:
+  - 127.0.0.1:8080
+  NonBlock: true

@@ -1,0 +1,9 @@
+Name: keystone.rpc
+ListenOn: 0.0.0.0:8080
+Mode: dev
+
+Salt: HWVOFkGgPTryzICwd7qnJaZR9KQ2i8xe
+
+Mysql:
+  DataSource: root:123qwe@tcp(localhost:3306)/goweb?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+
